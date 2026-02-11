@@ -28,7 +28,7 @@ Dự án này được thực hiện theo quy trình AI-Assisted Development (Ph
 
 ## 💡 Key Features & Problem Solving (Điểm nhấn Kỹ thuật)
 
-### 1. 🛡️ Data Leakage Control (Chống rò rỉ dữ liệu - Khái niệm sống còn)
+### 1. 🛡️ Data Leakage Control (Chống rò rỉ dữ liệu)
 * **Vấn đề (The Pain Point):** Dữ liệu gốc có công thức $Total = Male + Female + Unknown$. Nếu giữ lại các biến thành phần này, mô hình sẽ thực hiện "phép cộng" thay vì "học đặc trưng", dẫn đến kết quả 100% vô giá trị trong thực tế.
 * **Giải pháp:** Triệt tiêu hoàn toàn các biến rò rỉ và định danh. Buộc mô hình Random Forest phải thực sự suy luận từ các thông số kỹ thuật cốt lõi: **Price, Power, Engine CC và Manufacturer.**.
 
